@@ -1,0 +1,21 @@
+%btn {
+    display: block;
+    font-family: $font-heads;
+    color: $white;
+    background-color: $cyan-color;
+    width: 13rem;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.get-btn {
+    @extend %btn;
+    padding: .8rem 2rem;
+}
+
+.cta-btn {
+    @extend %btn;
+    padding: 1rem 2rem;
+}
